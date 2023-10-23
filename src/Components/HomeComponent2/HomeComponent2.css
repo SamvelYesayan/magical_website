@@ -1,0 +1,42 @@
+.home-comp2{
+    background-color: #6C00FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 50px;
+}
+.home-comp2>img{
+    height: 60vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .home-comp2>img{
+        height: 40vh;
+    }
+    .home-comp2-text{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .home-comp2>img{
+        height: 30vh;
+    }
+    .home-comp2-text{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-comp2>img{
+        display: none;
+    }
+ 
+}
+
+@media screen and (max-width: 300px) {
+    .home-comp2-text{
+        font-size: 0.5rem;
+    }
+}

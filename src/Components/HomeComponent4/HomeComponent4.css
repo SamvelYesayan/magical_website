@@ -1,0 +1,75 @@
+.home-comp4{
+    display: flex;
+    justify-content: space-around;
+}
+.home-comp4-div2{
+    background: #6C00FF;
+    width: 35%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-comp4-div2>img{
+    height: 40vh;
+}
+.home-comp4-div1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.home-comp4-div1-radio{
+    display: flex;
+    gap: 50px;
+}
+.home-comp4-div1-radio>div>label{
+    color: #616161;
+}
+.home-comp4-div1>b{
+    color: black;
+    font-weight: 400;
+}
+.home-comp4-div1>input{
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #D5D8DE;
+}
+.home-comp4-div1>textarea{
+    border: 1px solid #D5D8DE;
+    resize: none;
+}
+.home-comp4-div1>button{
+    height: 30px;
+    border: none;
+    background: #6C00FF;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.home-comp4-div1>button:hover{
+    background-color: #3b0489;
+}
+
+.home-comp4-div2{
+    height: 64vh;
+    margin-top: 20px;
+}
+
+.home-comp4{
+    border-top: 1px solid  #3b0489;
+    border-bottom: 1px solid  #3b0489;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .home-comp4-div2>img{
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home-comp4-div2{
+        display: none;
+    }
+}
